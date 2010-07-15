@@ -103,41 +103,7 @@
 
 - (NSArray *)getLists
 {
-    // cache this to avoid multiple consecutive queries (add time condition)
-    
-    if (m_cachedListsResponse != nil && m_cachedListsCreationTime != nil)
-    {
-        if ([[NSDate date] timeIntervalSinceDate:m_cachedListsCreationTime] <= 60.0)
-        {
-            return [m_cachedListsResponse lists];
-        }
-        else // expire cache
-        {
-            [m_cachedListsResponse release];
-            m_cachedListsResponse = nil;
-            
-            [m_cachedListsCreationTime release];
-            m_cachedListsCreationTime = nil;
-        }
-    }
-    
-    NSString *error;
-    RTMResponse *resp = [self callAndVerifyAuthenticatedMethod:@"rtm.lists.getList" 
-                                                 withArguments:[NSDictionary dictionary]
-                                                         error:&error];
-
-    if (resp)
-    {
-        m_cachedListsResponse = [resp retain];
-        m_cachedListsCreationTime = [[NSDate date] retain];
-    
-        return [resp lists];
-    }
-    else
-    {
-        NSLog(@"RTM: There was an error (%@) getting a list of lists", error);
-        return nil;
-    }
+    return nil;
 }
 
 - (NSDictionary *)addTask:(NSString *)todo toList:(NSDictionary *)list parse:(BOOL)parse error:(NSString **)err

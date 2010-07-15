@@ -89,7 +89,7 @@
     }
 }
 
-- (QSObject *)newTaskWithText:(QSObject *)dObject inList:(QSObject *)iObject
+- (QSObject *)newTaskWithText:(QSObject *)dObject
 {
     NSString *errorStr = NULL;
     RTMSession *session = [m_controller getSessionWithError:&errorStr];
@@ -100,11 +100,6 @@
         NSDictionary *listInfo = nil;
         BOOL shouldParse = [[NSUserDefaults standardUserDefaults] boolForKey:@"QSRTMParseTask"];
         NSDictionary *newTask;
-        
-        if ([[iObject primaryType] isEqualToString:kRTMListType])
-        {
-            listInfo = [iObject objectForType:kRTMListType];
-        }
         
         if (newTask = [session addTask:[dObject stringValue] toList:listInfo parse:shouldParse error:&err])
         {

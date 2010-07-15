@@ -1,0 +1,150 @@
+// !$*UTF8*$!
+{
+	0259C573FE90428111CA0C5A /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D1AC9600486D14A00FE50C9 /* RememberTheMilk */;
+		codeSenseManager = C8E1FD9E11EE97EA00E493EC /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 300849151;
+			PBXWorkspaceStateSaveDate = 300849151;
+		};
+		perUserProjectItems = {
+			C8E1FDC211EE9BCB00E493EC /* PBXTextBookmark */ = C8E1FDC211EE9BCB00E493EC /* PBXTextBookmark */;
+			C8E1FDC311EE9BCB00E493EC /* PBXTextBookmark */ = C8E1FDC311EE9BCB00E493EC /* PBXTextBookmark */;
+			C8E1FDC411EE9BCB00E493EC /* PBXTextBookmark */ = C8E1FDC411EE9BCB00E493EC /* PBXTextBookmark */;
+			C8E1FDC511EE9BCB00E493EC /* PBXTextBookmark */ = C8E1FDC511EE9BCB00E493EC /* PBXTextBookmark */;
+			C8E1FDC611EE9BCB00E493EC /* PBXBookmark */ = C8E1FDC611EE9BCB00E493EC /* PBXBookmark */;
+			C8E1FDC711EE9BCB00E493EC /* PBXBookmark */ = C8E1FDC711EE9BCB00E493EC /* PBXBookmark */;
+			C8E1FDC811EE9BCB00E493EC /* PlistBookmark */ = C8E1FDC811EE9BCB00E493EC /* PlistBookmark */;
+		};
+		sourceControlManager = C8E1FD9D11EE97EA00E493EC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6A43B2DC0C7CC04700D03784 /* RTMSession.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 2960}}";
+			sepNavSelRange = "{3120, 0}";
+			sepNavVisRange = "{4794, 809}";
+		};
+	};
+	6A43B6B50C7CF11700D03784 /* QSRTMController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 2512}}";
+			sepNavSelRange = "{2558, 0}";
+			sepNavVisRange = "{1833, 1135}";
+		};
+	};
+	6AEDC3290C777463005892D7 /* RememberTheMilkAction.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 768}}";
+			sepNavSelRange = "{1965, 0}";
+			sepNavVisRange = "{296, 1677}";
+		};
+	};
+	6AEDC32A0C777463005892D7 /* RememberTheMilkAction.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 2432}}";
+			sepNavSelRange = "{3405, 0}";
+			sepNavVisRange = "{2204, 1001}";
+		};
+	};
+	8D1AC9600486D14A00FE50C9 /* RememberTheMilk */ = {
+		activeExec = 0;
+	};
+	C8E1FD9D11EE97EA00E493EC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C8E1FD9E11EE97EA00E493EC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C8E1FDC211EE9BCB00E493EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEDC3290C777463005892D7 /* RememberTheMilkAction.h */;
+		name = "RememberTheMilkAction.h: 45";
+		rLen = 0;
+		rLoc = 1965;
+		rType = 0;
+		vrLen = 1677;
+		vrLoc = 296;
+	};
+	C8E1FDC311EE9BCB00E493EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEDC32A0C777463005892D7 /* RememberTheMilkAction.m */;
+		name = "RememberTheMilkAction.m: 102";
+		rLen = 0;
+		rLoc = 3405;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 2204;
+	};
+	C8E1FDC411EE9BCB00E493EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A43B2DC0C7CC04700D03784 /* RTMSession.m */;
+		name = "RTMSession.m: 106";
+		rLen = 0;
+		rLoc = 3120;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 4794;
+	};
+	C8E1FDC511EE9BCB00E493EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A43B6B50C7CF11700D03784 /* QSRTMController.m */;
+		name = "QSRTMController.m: 65";
+		rLen = 0;
+		rLoc = 2558;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 1833;
+	};
+	C8E1FDC611EE9BCB00E493EC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6AC024370D10C43F001972D7 /* cow.icns */;
+	};
+	C8E1FDC711EE9BCB00E493EC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1AC9730486D14A00FE50C9 /* Info.plist */;
+	};
+	C8E1FDC811EE9BCB00E493EC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1AC9730486D14A00FE50C9 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/ybian/src/rtm-quicksilver/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}

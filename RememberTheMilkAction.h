@@ -42,6 +42,6 @@
     QSRTMController *m_controller;
 }
 
-- (QSObject *)newTaskWithText:(QSObject *)dObject inList:(QSObject *)iObject;
+- (QSObject *)newTaskWithText:(QSObject *)dObject;
 @end
 
