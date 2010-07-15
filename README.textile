@@ -1,0 +1,29 @@
+h1. The First Look
+
+!http://farm5.static.flickr.com/4080/4795607670_81020b29f7.jpg!
+
+h1. Credit
+
+This is almost a git clone of the same named project from "brianjmoore":http://code.google.com/u/brianjmoore/. The project link is "here":http://www.binaryminded.com/qsrtm.html.
+
+h1. Why?
+
+The main intention for me to clone this is to "fix" this annoying issue that I always meet: "locks up quicksilver when envoking":http://code.google.com/p/rtm-quicksilver/issues/detail?id=8
+
+I found the lock happened when the plugin tried to get lists from RTM.  My fix is actually a hack which is good enough for me: I removed the get list functionality!  Personally I rely on the "Smart Add Feature":http://www.rememberthemilk.com/services/smartadd/ to do all properties input, including the list name.
+
+h1. Other tweaks
+
+* Rename the action name as "Remember The Milk"
+
+* Make the icon look nicer
+
+* Build with XCode 3.2 and OS X 10.6 and include a pre-built bundle in the root directory
+
+* Change "bltrversion" to a universal binary so you don't need Rosseta if you want to build by yourself.
+
+h1. How to use
+
+Download and double-click *RememberTheMilk.qsplugin* to install.  You need to uninstall the old version (in QS preference) first if it exists.
+
+If you want to build by yourself, you need an API key requested from www.rememberthemilk.com.
